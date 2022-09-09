@@ -1,12 +1,40 @@
-<!DOCTYPE >
-<html lang="pt-br">
-<head>
-<title>Page Title</title>
-</head>
-<body>
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
 
-<h1>HTML semântico</h1>
-<p>isso é um paragrafo</p>
+<body>  
 
+    <h1>Calculadora Multiplicação</h1>
+
+ 
+
+    <form>
+       Digite o primeiro valor:
+        <input type="text" name="n1"><br><br>        
+        Digite o segundo valor: 
+        <input type="text" name="n2"><br><br>        
+
+        O seu Resultado é:
+        <input type="text" name="resultado"><br><br>
+
+        <button type="button" onclick="calcMult()">Multiplicar</button>   
+        
+        
+        <button type="button" onclick="calcdiv()">Dividir</button>
+
+
+        <button type="button" onclick="calcsoma()">Soma</button>
+
+        <button type="button" onclick="calcsub()">Subtração</button>
+
+        
+    </form>
+
+  
+    <script src="script.js"></script>   
 </body>
 </html>

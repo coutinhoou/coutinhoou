@@ -1,0 +1,33 @@
+img, embed, object, video{
+    max-width: 100%;
+}
+
+nav, a, button{
+    min-width: 48px;
+    min-height: 48px;
+}
+body{
+background-color: rgb(31, 36, 34);
+
+    
+}
+h1 {
+font-style: italic;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+color:azure}
+{
+font-style:italic;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color:azure
+
+    
+}
+@media screen and (max-width:500px) {
+    body{
+
+
+        
+    }
+}
+body {outline-style: double;
+}
